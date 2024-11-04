@@ -3,6 +3,7 @@ OPSC POE
 Student Name/No.: Utima Emerson Neto- ST10245994
 
 CASH MATE
+
 The Cashmate App has been tailored to enhance users' ability to control their finances. The application encompasses features, which enable users to record their expenditures, keep track of settlements, construct monetary plans, and transfer information to an offsite database. It ensures that a user has a clear picture of their financial position and can make decisions accordingly, in order to adhere to and follow their budget.
 Features
 Expense Management: Track daily expenses with detailed information such as name, date, note, amount, and user ID.
@@ -24,17 +25,21 @@ Data Management:
 SQLite Database: Utilizes local storage for quicker access and offline capability.
 Remote Synchronization: A background scheduler (via Work Manager) regularly synchronizes data with the server.
 Data Transformations: The app processes data into a format optimized for synchronization, ensuring efficiency and minimal data loss.
+
 Security
+
 Data Privacy: Users' transaction details and budgets are securely stored and transferred using encrypted channels.
 Authentication: Plans include integrating Firebase for secure user authentication and access.
 
 Architecture
+
 Database Layer: SQLite is utilized for local storage, featuring tables for expenses, users, budgets, and transactions.
 API Layer: Retrofit manages API calls to the server for data synchronization.
 Work Manager: Manages background sync operations to ensure data is updated seamlessly without interrupting the user experience.
 
 
 Conclusion
+
 This app aims to assist users in monitoring their spending habits and maintaining financial stability. By utilizing GitHub and GitHub Actions, the development process is streamlined, leading to efficient development cycles and faster delivery.
 
 
