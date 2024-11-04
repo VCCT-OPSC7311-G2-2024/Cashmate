@@ -50,4 +50,4 @@ Key Benefits of GitHub Actions:
 Automation: This reduces the manual effort required for running tests and deployments.
 Monitoring: Actions provide valuable insights and logs for each build, making it easier to identify issues.
 Efficiency: Builds are triggered automatically, ensuring continuous feedback throughout the development process.
-![image](https://github.com/user-attachments/assets/5976941b-4f64-4cdd-a9aa-05ada04e06a1)
+
